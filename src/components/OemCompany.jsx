@@ -79,13 +79,13 @@ const OemCompany = () => {
         </label>
       </div>
 
-      <div className="mt-[2.5%]">
+      {/* <div className="mt-[2.5%]">
         <h1 className="text-center text-5xl font-normal text-blue">
           Electronics
         </h1>
-      </div>
+      </div> */}
 
-      <div className="w-full mt-6">
+      <div className="w-full mt-14">
         <div className="w-full flex flex-col md:flex-row">
           <div className="md:w-1/3 h-auto bg-bgTableColor sticky top-0">
             {OEMDataElectronics.map((OEMData, index) => (
